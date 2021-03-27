@@ -10,4 +10,6 @@ public class TestTargetPage extends BaseTest{
         GHP.clickGoogle("Universidad Cenfotec");
     }
 
+
+
 }

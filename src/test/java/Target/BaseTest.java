@@ -34,11 +34,7 @@ public class BaseTest {
         driver.get(url);
     }
 
-    @BeforeMethod
-    public void methodLevelSetUp()
-    {
-        GHP = new TargetHomePage(driver);
-    }
+
 
     @AfterClass
     public void teardown()
