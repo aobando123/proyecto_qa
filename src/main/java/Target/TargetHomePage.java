@@ -3,7 +3,7 @@ package Target;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class GoogleHomePage extends BasePage{
+public class TargetHomePage extends BasePage{
 
     private WebDriver driver;
 
@@ -13,14 +13,14 @@ public class GoogleHomePage extends BasePage{
 
     By Button_Search = By.xpath("(//input[@name='btnK'])[2]");
 
-    GoogleHomePage(WebDriver driver){
+    TargetHomePage(WebDriver driver){
         super(driver);
     }
 
     public void clickGoogle(String text)
     {
-        sendKeys(Input_SearchBar, text);
-        click(Image_Google);
-        click(Button_Search);
+//        sendKeys(Input_SearchBar, text);
+//        click(Image_Google);
+//        click(Button_Search);
     }
 }
