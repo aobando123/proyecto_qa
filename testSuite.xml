@@ -6,7 +6,7 @@
 
     <test name="Prueba">
         <classes>
-            <class name="Target.TestGooglePage"/>
+            <class name="Target.TestTargetPage"/>
         </classes>
     </test>
 
