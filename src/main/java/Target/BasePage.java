@@ -1,4 +1,4 @@
-package Google;
+package Target;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
