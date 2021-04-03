@@ -21,7 +21,7 @@ public class TargetLoginPage extends BasePage{
     By Spam_LogonName = By.className("styles__AccountName-sc-1kk0q5l-0");
     By Spam_Fail = By.className("sc-kjoXOD");
 
-    private void navigate() throws InterruptedException{
+    public void navigate() throws InterruptedException{
         click(AccountBtn);
         Thread.sleep(1500);
         click(SignButton);

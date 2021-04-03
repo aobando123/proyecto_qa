@@ -16,8 +16,10 @@ public class TargetDetailPage extends BasePage{
     By H1_Title = By.className("Heading__StyledHeading-sc-1mp23s9-0");
     By Not_Found = By.className("ProductNotFound__Title-sc-18ftl40-1");
 
+    public String FavoriteItem;
+
     public boolean getDetailElement() throws InterruptedException{
-        Thread.sleep(5000);
+        Thread.sleep(8000);
         List<WebElement> lis = driver.findElements(items_Sold);
         WebElement element = lis.get(0);
         String detailName = element.getText();
@@ -25,8 +27,13 @@ public class TargetDetailPage extends BasePage{
         Thread.sleep(5000);
         List<WebElement> titles = driver.findElements(H1_Title);
         WebElement title = titles.get(0);
+        FavoriteItem = detailName;
         Thread.sleep(5000);
         return title.getText().equalsIgnoreCase(detailName);
+    }
+
+    public void goToPage(String url){
+        driver.navigate().to(url);
     }
 
     public boolean getNotFoundElement() throws InterruptedException{

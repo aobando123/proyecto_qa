@@ -23,4 +23,9 @@
             <class name="Target.TestTargetDetailPage"/>
         </classes>
     </test>
+    <test name="FavoritesPage">
+        <classes>
+            <class name="Target.TestTargetFavoritePage"/>
+        </classes>
+    </test>
 </suite>
