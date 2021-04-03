@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="25347" started-at="2021-04-02T23:59:16Z" finished-at="2021-04-02T23:59:42Z">
+  <suite name="Suite" duration-ms="56236" started-at="2021-04-03T01:57:18Z" finished-at="2021-04-03T01:58:15Z">
     <groups>
     </groups>
-    <test name="Login" duration-ms="25347" started-at="2021-04-02T23:59:16Z" finished-at="2021-04-02T23:59:42Z">
-      <class name="Target.TestTargetLogin">
-        <test-method status="PASS" signature="TestSetUp(java.lang.String, java.lang.String)[pri:0, instance:Target.TestTargetLogin@6e3c1e69]" name="TestSetUp" is-config="true" duration-ms="10124" started-at="2021-04-02T17:59:16Z" finished-at="2021-04-02T17:59:27Z">
+    <test name="PasswordRecovery" duration-ms="30505" started-at="2021-04-03T01:57:18Z" finished-at="2021-04-03T01:57:49Z">
+      <class name="Target.TestTargetPasswordRecoveryPage">
+        <test-method status="PASS" signature="TestSetUp(java.lang.String, java.lang.String)[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="TestSetUp" is-config="true" duration-ms="9978" started-at="2021-04-02T19:57:18Z" finished-at="2021-04-02T19:57:28Z">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSetUp -->
-        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetLogin@6e3c1e69]" name="methodLevelSetUp" is-config="true" duration-ms="10" started-at="2021-04-02T17:59:27Z" finished-at="2021-04-02T17:59:27Z">
+        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="methodLevelSetUp" is-config="true" duration-ms="7" started-at="2021-04-02T19:57:28Z" finished-at="2021-04-02T19:57:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetUp -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:Target.TestTargetLogin@6e3c1e69]" name="testLogin" duration-ms="14562" started-at="2021-04-02T17:59:27Z" finished-at="2021-04-02T17:59:41Z">
+        <test-method status="PASS" signature="testFakePasswordRecovery()[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="testFakePasswordRecovery" duration-ms="9472" started-at="2021-04-02T19:57:28Z" finished-at="2021-04-02T19:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFakePasswordRecovery -->
+        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="methodLevelSetUp" is-config="true" duration-ms="0" started-at="2021-04-02T19:57:38Z" finished-at="2021-04-02T19:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetUp -->
+        <test-method status="PASS" signature="testPasswordRecovery()[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="testPasswordRecovery" duration-ms="10402" started-at="2021-04-02T19:57:38Z" finished-at="2021-04-02T19:57:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordRecovery -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="teardown" is-config="true" duration-ms="634" started-at="2021-04-02T19:57:48Z" finished-at="2021-04-02T19:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Target.TestTargetPasswordRecoveryPage -->
+    </test> <!-- PasswordRecovery -->
+    <test name="Login" duration-ms="25722" started-at="2021-04-03T01:57:49Z" finished-at="2021-04-03T01:58:15Z">
+      <class name="Target.TestTargetLogin">
+        <test-method status="PASS" signature="TestSetUp(java.lang.String, java.lang.String)[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="TestSetUp" is-config="true" duration-ms="7290" started-at="2021-04-02T19:57:49Z" finished-at="2021-04-02T19:57:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.target.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetUp -->
+        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="methodLevelSetUp" is-config="true" duration-ms="1" started-at="2021-04-02T19:57:56Z" finished-at="2021-04-02T19:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetUp -->
+        <test-method status="PASS" signature="testFakeUserLogin()[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="testFakeUserLogin" duration-ms="8051" started-at="2021-04-02T19:57:56Z" finished-at="2021-04-02T19:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFakeUserLogin -->
+        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="methodLevelSetUp" is-config="true" duration-ms="0" started-at="2021-04-02T19:58:04Z" finished-at="2021-04-02T19:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetUp -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="testLogin" duration-ms="9743" started-at="2021-04-02T19:58:04Z" finished-at="2021-04-02T19:58:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Target.TestTargetLogin@6e3c1e69]" name="teardown" is-config="true" duration-ms="637" started-at="2021-04-02T17:59:41Z" finished-at="2021-04-02T17:59:42Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="teardown" is-config="true" duration-ms="637" started-at="2021-04-02T19:58:14Z" finished-at="2021-04-02T19:58:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

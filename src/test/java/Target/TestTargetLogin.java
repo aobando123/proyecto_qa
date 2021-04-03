@@ -13,8 +13,12 @@ public class TestTargetLogin extends BaseTest{
     }
 
     @Test
+    public void testFakeUserLogin() throws InterruptedException {
+        Assert.assertTrue(TLP.wrongLogin("fakeUser@ucenfotec.ac.cr", "error123"));
+    }
+
+    @Test
     public void testLogin() throws InterruptedException {
         Assert.assertTrue(TLP.login("jsolanom@ucenfotec.ac.cr", "testU123"));
     }
-
 }
