@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25347" started-at="2021-04-02T23:59:16Z" finished-at="2021-04-02T23:59:42Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="25347" started-at="2021-04-02T23:59:16Z" finished-at="2021-04-02T23:59:42Z">
+      <class name="Target.TestTargetLogin">
+        <test-method status="PASS" signature="TestSetUp(java.lang.String, java.lang.String)[pri:0, instance:Target.TestTargetLogin@6e3c1e69]" name="TestSetUp" is-config="true" duration-ms="10124" started-at="2021-04-02T17:59:16Z" finished-at="2021-04-02T17:59:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.target.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetUp -->
+        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetLogin@6e3c1e69]" name="methodLevelSetUp" is-config="true" duration-ms="10" started-at="2021-04-02T17:59:27Z" finished-at="2021-04-02T17:59:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetUp -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:Target.TestTargetLogin@6e3c1e69]" name="testLogin" duration-ms="14562" started-at="2021-04-02T17:59:27Z" finished-at="2021-04-02T17:59:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Target.TestTargetLogin@6e3c1e69]" name="teardown" is-config="true" duration-ms="637" started-at="2021-04-02T17:59:41Z" finished-at="2021-04-02T17:59:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Target.TestTargetLogin -->
+    </test> <!-- Login -->
+  </suite> <!-- Suite -->
+</testng-results>
