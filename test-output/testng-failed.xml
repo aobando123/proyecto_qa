@@ -3,23 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <parameter name="URL" value="https://www.target.com/"/>
   <parameter name="Browser" value="Chrome"/>
-  <test name="PasswordRecovery(failed)">
+  <test name="SearchPage(failed)">
     <classes>
-      <class name="Target.TestTargetLogin">
+      <class name="Target.TestTargetSearchPage">
         <methods>
+          <include name="testDisplayCategory"/>
           <include name="TestSetUp"/>
           <include name="teardown"/>
           <include name="methodLevelSetUp"/>
         </methods>
-      </class> <!-- Target.TestTargetLogin -->
-      <class name="Target.TestTargetPasswordRecoveryPage">
-        <methods>
-          <include name="TestSetUp"/>
-          <include name="methodLevelSetUp"/>
-          <include name="testPasswordRecovery"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- Target.TestTargetPasswordRecoveryPage -->
+      </class> <!-- Target.TestTargetSearchPage -->
     </classes>
-  </test> <!-- PasswordRecovery(failed) -->
+  </test> <!-- SearchPage(failed) -->
 </suite> <!-- Failed suite [Suite] -->

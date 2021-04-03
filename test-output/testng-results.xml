@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="56236" started-at="2021-04-03T01:57:18Z" finished-at="2021-04-03T01:58:15Z">
+  <suite name="Suite" duration-ms="90274" started-at="2021-04-03T06:50:55Z" finished-at="2021-04-03T06:52:25Z">
     <groups>
     </groups>
-    <test name="PasswordRecovery" duration-ms="30505" started-at="2021-04-03T01:57:18Z" finished-at="2021-04-03T01:57:49Z">
+    <test name="PasswordRecovery" duration-ms="25054" started-at="2021-04-03T06:50:55Z" finished-at="2021-04-03T06:51:20Z">
       <class name="Target.TestTargetPasswordRecoveryPage">
-        <test-method status="PASS" signature="TestSetUp(java.lang.String, java.lang.String)[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="TestSetUp" is-config="true" duration-ms="9978" started-at="2021-04-02T19:57:18Z" finished-at="2021-04-02T19:57:28Z">
+        <test-method status="PASS" signature="TestSetUp(java.lang.String, java.lang.String)[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="TestSetUp" is-config="true" duration-ms="5413" started-at="2021-04-03T00:50:55Z" finished-at="2021-04-03T00:51:00Z">
           <params>
             <param index="0">
               <value>
@@ -23,31 +23,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSetUp -->
-        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="methodLevelSetUp" is-config="true" duration-ms="7" started-at="2021-04-02T19:57:28Z" finished-at="2021-04-02T19:57:28Z">
+        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="methodLevelSetUp" is-config="true" duration-ms="3" started-at="2021-04-03T00:51:00Z" finished-at="2021-04-03T00:51:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetUp -->
-        <test-method status="PASS" signature="testFakePasswordRecovery()[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="testFakePasswordRecovery" duration-ms="9472" started-at="2021-04-02T19:57:28Z" finished-at="2021-04-02T19:57:38Z">
+        <test-method status="PASS" signature="testFakePasswordRecovery()[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="testFakePasswordRecovery" duration-ms="8864" started-at="2021-04-03T00:51:00Z" finished-at="2021-04-03T00:51:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFakePasswordRecovery -->
-        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="methodLevelSetUp" is-config="true" duration-ms="0" started-at="2021-04-02T19:57:38Z" finished-at="2021-04-02T19:57:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetUp -->
-        <test-method status="PASS" signature="testPasswordRecovery()[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="testPasswordRecovery" duration-ms="10402" started-at="2021-04-02T19:57:38Z" finished-at="2021-04-02T19:57:48Z">
+        <test-method status="PASS" signature="testPasswordRecovery()[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="testPasswordRecovery" duration-ms="10109" started-at="2021-04-03T00:51:09Z" finished-at="2021-04-03T00:51:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPasswordRecovery -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="teardown" is-config="true" duration-ms="634" started-at="2021-04-02T19:57:48Z" finished-at="2021-04-02T19:57:49Z">
+        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="methodLevelSetUp" is-config="true" duration-ms="0" started-at="2021-04-03T00:51:09Z" finished-at="2021-04-03T00:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetUp -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Target.TestTargetPasswordRecoveryPage@6e3c1e69]" name="teardown" is-config="true" duration-ms="648" started-at="2021-04-03T00:51:19Z" finished-at="2021-04-03T00:51:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Target.TestTargetPasswordRecoveryPage -->
     </test> <!-- PasswordRecovery -->
-    <test name="Login" duration-ms="25722" started-at="2021-04-03T01:57:49Z" finished-at="2021-04-03T01:58:15Z">
+    <test name="Login" duration-ms="22021" started-at="2021-04-03T06:51:20Z" finished-at="2021-04-03T06:51:42Z">
       <class name="Target.TestTargetLogin">
-        <test-method status="PASS" signature="TestSetUp(java.lang.String, java.lang.String)[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="TestSetUp" is-config="true" duration-ms="7290" started-at="2021-04-02T19:57:49Z" finished-at="2021-04-02T19:57:56Z">
+        <test-method status="PASS" signature="TestSetUp(java.lang.String, java.lang.String)[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="TestSetUp" is-config="true" duration-ms="4229" started-at="2021-04-03T00:51:20Z" finished-at="2021-04-03T00:51:24Z">
           <params>
             <param index="0">
               <value>
@@ -63,27 +63,91 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSetUp -->
-        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="methodLevelSetUp" is-config="true" duration-ms="1" started-at="2021-04-02T19:57:56Z" finished-at="2021-04-02T19:57:56Z">
+        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="methodLevelSetUp" is-config="true" duration-ms="1" started-at="2021-04-03T00:51:24Z" finished-at="2021-04-03T00:51:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetUp -->
-        <test-method status="PASS" signature="testFakeUserLogin()[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="testFakeUserLogin" duration-ms="8051" started-at="2021-04-02T19:57:56Z" finished-at="2021-04-02T19:58:04Z">
+        <test-method status="PASS" signature="testFakeUserLogin()[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="testFakeUserLogin" duration-ms="7308" started-at="2021-04-03T00:51:24Z" finished-at="2021-04-03T00:51:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFakeUserLogin -->
-        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="methodLevelSetUp" is-config="true" duration-ms="0" started-at="2021-04-02T19:58:04Z" finished-at="2021-04-02T19:58:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetUp -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="testLogin" duration-ms="9743" started-at="2021-04-02T19:58:04Z" finished-at="2021-04-02T19:58:14Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="testLogin" duration-ms="9826" started-at="2021-04-03T00:51:31Z" finished-at="2021-04-03T00:51:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="teardown" is-config="true" duration-ms="637" started-at="2021-04-02T19:58:14Z" finished-at="2021-04-02T19:58:15Z">
+        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="methodLevelSetUp" is-config="true" duration-ms="0" started-at="2021-04-03T00:51:31Z" finished-at="2021-04-03T00:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetUp -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Target.TestTargetLogin@4cdbe50f]" name="teardown" is-config="true" duration-ms="656" started-at="2021-04-03T00:51:41Z" finished-at="2021-04-03T00:51:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Target.TestTargetLogin -->
     </test> <!-- Login -->
+    <test name="SearchPage" duration-ms="43161" started-at="2021-04-03T06:51:42Z" finished-at="2021-04-03T06:52:25Z">
+      <class name="Target.TestTargetSearchPage">
+        <test-method status="PASS" signature="TestSetUp(java.lang.String, java.lang.String)[pri:0, instance:Target.TestTargetSearchPage@3f0ee7cb]" name="TestSetUp" is-config="true" duration-ms="4204" started-at="2021-04-03T00:51:42Z" finished-at="2021-04-03T00:51:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.target.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetUp -->
+        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetSearchPage@3f0ee7cb]" name="methodLevelSetUp" is-config="true" duration-ms="1" started-at="2021-04-03T00:51:46Z" finished-at="2021-04-03T00:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetUp -->
+        <test-method status="PASS" signature="testCategoryNotFound()[pri:0, instance:Target.TestTargetSearchPage@3f0ee7cb]" name="testCategoryNotFound" duration-ms="3340" started-at="2021-04-03T00:51:46Z" finished-at="2021-04-03T00:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCategoryNotFound -->
+        <test-method status="PASS" signature="testDisplayCategory()[pri:0, instance:Target.TestTargetSearchPage@3f0ee7cb]" name="testDisplayCategory" duration-ms="10221" started-at="2021-04-03T00:51:49Z" finished-at="2021-04-03T00:51:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisplayCategory -->
+        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetSearchPage@3f0ee7cb]" name="methodLevelSetUp" is-config="true" duration-ms="0" started-at="2021-04-03T00:51:49Z" finished-at="2021-04-03T00:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetUp -->
+        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetSearchPage@3f0ee7cb]" name="methodLevelSetUp" is-config="true" duration-ms="1" started-at="2021-04-03T00:51:59Z" finished-at="2021-04-03T00:51:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetUp -->
+        <test-method status="PASS" signature="testSearchCategory()[pri:0, instance:Target.TestTargetSearchPage@3f0ee7cb]" name="testSearchCategory" duration-ms="7697" started-at="2021-04-03T00:51:59Z" finished-at="2021-04-03T00:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchCategory -->
+        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetSearchPage@3f0ee7cb]" name="methodLevelSetUp" is-config="true" duration-ms="0" started-at="2021-04-03T00:52:07Z" finished-at="2021-04-03T00:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetUp -->
+        <test-method status="PASS" signature="testSearchItem()[pri:0, instance:Target.TestTargetSearchPage@3f0ee7cb]" name="testSearchItem" duration-ms="6085" started-at="2021-04-03T00:52:07Z" finished-at="2021-04-03T00:52:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchItem -->
+        <test-method status="PASS" signature="methodLevelSetUp()[pri:0, instance:Target.TestTargetSearchPage@3f0ee7cb]" name="methodLevelSetUp" is-config="true" duration-ms="0" started-at="2021-04-03T00:52:13Z" finished-at="2021-04-03T00:52:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetUp -->
+        <test-method status="PASS" signature="testSupportTypoItem()[pri:0, instance:Target.TestTargetSearchPage@3f0ee7cb]" name="testSupportTypoItem" duration-ms="10973" started-at="2021-04-03T00:52:13Z" finished-at="2021-04-03T00:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSupportTypoItem -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Target.TestTargetSearchPage@3f0ee7cb]" name="teardown" is-config="true" duration-ms="638" started-at="2021-04-03T00:52:24Z" finished-at="2021-04-03T00:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Target.TestTargetSearchPage -->
+    </test> <!-- SearchPage -->
   </suite> <!-- Suite -->
 </testng-results>
