@@ -29,6 +29,7 @@ public class BaseTest {
                 driver = new EdgeDriver();
                 driver.manage().window().maximize();
                 break;
+
         }
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.get(url);

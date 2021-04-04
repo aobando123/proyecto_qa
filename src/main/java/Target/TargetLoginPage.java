@@ -21,7 +21,7 @@ public class TargetLoginPage extends BasePage{
     By Spam_LogonName = By.className("styles__AccountName-sc-1kk0q5l-0");
     By Spam_Fail = By.className("sc-kjoXOD");
 
-    private void navigate() throws InterruptedException{
+    public void navigate() throws InterruptedException{
         click(AccountBtn);
         Thread.sleep(1500);
         click(SignButton);
@@ -59,5 +59,18 @@ public class TargetLoginPage extends BasePage{
         WebElement webElement = driver.findElement(Spam_LogonName);
         String userName = webElement.getText();
         return userName.equalsIgnoreCase("Jose");
+    }
+
+    public void createAccount (String name, String lastName, String email, String password) throws InterruptedException{
+        By CreateAccountBtn = By.id("createAccount");
+        By Input_FirstName = By.id("firstname");
+        By Input_LastName =  By.id("lastname");
+        this.navigate();
+        click(CreateAccountBtn);
+        sendKeys(Input_UserName, email);
+        sendKeys(Input_FirstName, name);
+        sendKeys(Input_LastName, lastName);
+        sendKeys(Input_Password, password);
+        click(CreateAccountBtn);
     }
 }
