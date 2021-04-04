@@ -15,27 +15,27 @@ public class TestTargetMenuNav extends BaseTest{
     }
 
 
-//    @Test
-//    public void regressionDealsNav() throws InterruptedException  {
-//        String menu= "secondary";
-//        String clearance = "deals-clearance";
-//        String weeklyAd = "deals-weeklyAd";
-//        String topDeals = "deals-topDeals";
-//        String redCardE = "deals-redcardExclusives";
-//        String targetCircle = "deals-cartwheel";
-//
-//        TMN.clickMenuItem(menu, clearance);
-//        Assert.assertTrue(driver.getCurrentUrl().contains("clearance"));
-//        TMN.clickMenuItem(menu, topDeals);
-//        Assert.assertTrue(driver.getCurrentUrl().contains("top-deals"));
-//        TMN.clickMenuItem(menu, redCardE);
-//        Assert.assertTrue(driver.getCurrentUrl().contains("redcard"));
-//        TMN.clickMenuItem(menu, targetCircle);
-//        Assert.assertTrue(driver.getCurrentUrl().contains("offers"));
-//        TMN.clickMenuItem(menu, weeklyAd);
-//        Assert.assertTrue(driver.getCurrentUrl().contains("weeklyad"));
-//        driver.get("https://www.target.com/");
-//    }
+    @Test
+    public void regressionDealsNav() throws InterruptedException  {
+        String menu= "secondary";
+        String clearance = "deals-clearance";
+        String weeklyAd = "deals-weeklyAd";
+        String topDeals = "deals-topDeals";
+        String redCardE = "deals-redcardExclusives";
+        String targetCircle = "deals-cartwheel";
+
+        TMN.clickMenuItem(menu, clearance);
+        Assert.assertTrue(driver.getCurrentUrl().contains("clearance"));
+        TMN.clickMenuItem(menu, topDeals);
+        Assert.assertTrue(driver.getCurrentUrl().contains("top-deals"));
+        TMN.clickMenuItem(menu, redCardE);
+        Assert.assertTrue(driver.getCurrentUrl().contains("redcard"));
+        TMN.clickMenuItem(menu, targetCircle);
+        Assert.assertTrue(driver.getCurrentUrl().contains("offers"));
+        TMN.clickMenuItem(menu, weeklyAd);
+        Assert.assertTrue(driver.getCurrentUrl().contains("weeklyad"));
+        driver.get("https://www.target.com/");
+    }
     @Test
     public void regressionWhatsNewNav() throws InterruptedException  {
         String menu= "trending";
