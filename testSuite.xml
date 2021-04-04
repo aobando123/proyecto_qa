@@ -38,4 +38,19 @@
             <class name="Target.TestTargetMenuNav"/>
         </classes>
     </test>
+    <test name="SearchPage">
+        <classes>
+            <class name="Target.TestTargetSearchPage"/>
+        </classes>
+    </test>
+    <test name="DetailPage">
+        <classes>
+            <class name="Target.TestTargetDetailPage"/>
+        </classes>
+    </test>
+    <test name="FavoritesPage">
+        <classes>
+            <class name="Target.TestTargetFavoritePage"/>
+        </classes>
+    </test>
 </suite>

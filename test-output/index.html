@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">5 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">15 methods, 1 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Target.TestTargetFavoritePage" hash-for-method="testFavoriteSaveRemoveDisplay">testFavoriteSaveRemoveDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +114,21 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Target.TestTargetSearchPage" hash-for-method="testCategoryNotFound">testCategoryNotFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Target.TestTargetSearchPage" hash-for-method="testDisplayCategory">testDisplayCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Target.TestTargetDetailPage" hash-for-method="testDisplayDetailItem">testDisplayDetailItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Target.TestTargetPasswordRecoveryPage" hash-for-method="testFakePasswordRecovery">testFakePasswordRecovery</a> <!-- method navigator-link -->
@@ -112,12 +141,47 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Target.TestTargetFavoritePage" hash-for-method="testFavoriteSave">testFavoriteSave</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Target.TestTargetFavoritePage" hash-for-method="testFavoriteSaveDisplay">testFavoriteSaveDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Target.TestTargetFavoritePage" hash-for-method="testFavoriteSaveRemove">testFavoriteSaveRemove</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Target.TestTargetLogin" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Target.TestTargetDetailPage" hash-for-method="testNotDetailFoundItem">testNotDetailFoundItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Target.TestTargetPasswordRecoveryPage" hash-for-method="testPasswordRecovery">testPasswordRecovery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Target.TestTargetSearchPage" hash-for-method="testSearchCategory">testSearchCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Target.TestTargetSearchPage" hash-for-method="testSearchItem">testSearchItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Target.TestTargetSearchPage" hash-for-method="testSupportTypoItem">testSupportTypoItem</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -132,6 +196,124 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Target.TestTargetFavoritePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFavoriteSaveRemoveDisplay">
+                  </a> <!-- testFavoriteSaveRemoveDisplay -->
+                  <span class="method-name">testFavoriteSaveRemoveDisplay</span>
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index: 2, Size: 2
+	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at Target.TargetFavoritePage.noFavoritesSaved(TargetFavoritePage.java:30)
+	at Target.TestTargetFavoritePage.testFavoriteSaveRemoveDisplay(TestTargetFavoritePage.java:50)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Target.TestTargetDetailPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayDetailItem">
+                  </a> <!-- testDisplayDetailItem -->
+                  <span class="method-name">testDisplayDetailItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotDetailFoundItem">
+                  </a> <!-- testNotDetailFoundItem -->
+                  <span class="method-name">testNotDetailFoundItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Target.TestTargetSearchPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCategoryNotFound">
+                  </a> <!-- testCategoryNotFound -->
+                  <span class="method-name">testCategoryNotFound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisplayCategory">
+                  </a> <!-- testDisplayCategory -->
+                  <span class="method-name">testDisplayCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchCategory">
+                  </a> <!-- testSearchCategory -->
+                  <span class="method-name">testSearchCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchItem">
+                  </a> <!-- testSearchItem -->
+                  <span class="method-name">testSearchItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSupportTypoItem">
+                  </a> <!-- testSupportTypoItem -->
+                  <span class="method-name">testSupportTypoItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Target.TestTargetFavoritePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFavoriteSave">
+                  </a> <!-- testFavoriteSave -->
+                  <span class="method-name">testFavoriteSave</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFavoriteSaveDisplay">
+                  </a> <!-- testFavoriteSaveDisplay -->
+                  <span class="method-name">testFavoriteSaveDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFavoriteSaveRemove">
+                  </a> <!-- testFavoriteSaveRemove -->
+                  <span class="method-name">testFavoriteSaveRemove</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -198,6 +380,21 @@
       &lt;class name=&quot;Target.TestTargetLogin&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Login --&gt;
+  &lt;test name=&quot;SearchPage&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Target.TestTargetSearchPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SearchPage --&gt;
+  &lt;test name=&quot;DetailPage&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Target.TestTargetDetailPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DetailPage --&gt;
+  &lt;test name=&quot;FavoritesPage&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Target.TestTargetFavoritePage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FavoritesPage --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -213,6 +410,15 @@
               </li>
               <li>
                 <span class="test-name">Login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SearchPage (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DetailPage (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">FavoritesPage (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -238,28 +444,72 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(15);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testPasswordRecovery')
-data.setCell(0, 2, 'Target.TestTargetPasswordRecoveryPage')
-data.setCell(0, 3, 10402);
+data.setCell(0, 1, 'testFavoriteSave')
+data.setCell(0, 2, 'Target.TestTargetFavoritePage')
+data.setCell(0, 3, 41104);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testLogin')
-data.setCell(1, 2, 'Target.TestTargetLogin')
-data.setCell(1, 3, 9743);
+data.setCell(1, 1, 'testFavoriteSaveRemove')
+data.setCell(1, 2, 'Target.TestTargetFavoritePage')
+data.setCell(1, 3, 24938);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testFakePasswordRecovery')
-data.setCell(2, 2, 'Target.TestTargetPasswordRecoveryPage')
-data.setCell(2, 3, 9472);
+data.setCell(2, 1, 'testDisplayDetailItem')
+data.setCell(2, 2, 'Target.TestTargetDetailPage')
+data.setCell(2, 3, 24502);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testFakeUserLogin')
-data.setCell(3, 2, 'Target.TestTargetLogin')
-data.setCell(3, 3, 8051);
+data.setCell(3, 1, 'testNotDetailFoundItem')
+data.setCell(3, 2, 'Target.TestTargetDetailPage')
+data.setCell(3, 3, 21600);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testFavoriteSaveRemoveDisplay')
+data.setCell(4, 2, 'Target.TestTargetFavoritePage')
+data.setCell(4, 3, 16091);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testPasswordRecovery')
+data.setCell(5, 2, 'Target.TestTargetPasswordRecoveryPage')
+data.setCell(5, 3, 11537);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSupportTypoItem')
+data.setCell(6, 2, 'Target.TestTargetSearchPage')
+data.setCell(6, 3, 10996);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testDisplayCategory')
+data.setCell(7, 2, 'Target.TestTargetSearchPage')
+data.setCell(7, 3, 10232);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testLogin')
+data.setCell(8, 2, 'Target.TestTargetLogin')
+data.setCell(8, 3, 9735);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testFakePasswordRecovery')
+data.setCell(9, 2, 'Target.TestTargetPasswordRecoveryPage')
+data.setCell(9, 3, 8950);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSearchCategory')
+data.setCell(10, 2, 'Target.TestTargetSearchPage')
+data.setCell(10, 3, 8639);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testFakeUserLogin')
+data.setCell(11, 2, 'Target.TestTargetLogin')
+data.setCell(11, 3, 7692);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testFavoriteSaveDisplay')
+data.setCell(12, 2, 'Target.TestTargetFavoritePage')
+data.setCell(12, 3, 6266);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testSearchItem')
+data.setCell(13, 2, 'Target.TestTargetSearchPage')
+data.setCell(13, 3, 6189);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCategoryNotFound')
+data.setCell(14, 2, 'Target.TestTargetSearchPage')
+data.setCell(14, 3, 3326);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -292,50 +542,173 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">methodLevelSetUp</span>
-                <span class="method-start">9984 ms</span>
+                <span class="method-start">8426 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testFakePasswordRecovery</span>
-                <span class="method-start">9991 ms</span>
+                <span class="method-start">8429 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">methodLevelSetUp</span>
-                <span class="method-start">19464 ms</span>
+                <span class="method-start">17380 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testPasswordRecovery</span>
-                <span class="method-start">19464 ms</span>
+                <span class="method-start">17380 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">29866 ms</span>
+                <span class="method-start">28917 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Target.TestTargetLogin</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">TestSetUp(Chrome, https://www.target.com/)</span>
-                <span class="method-start">30510 ms</span>
+                <span class="method-start">29571 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">methodLevelSetUp</span>
-                <span class="method-start">37800 ms</span>
+                <span class="method-start">38450 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testFakeUserLogin</span>
-                <span class="method-start">37801 ms</span>
+                <span class="method-start">38451 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">methodLevelSetUp</span>
-                <span class="method-start">45852 ms</span>
+                <span class="method-start">46143 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLogin</span>
-                <span class="method-start">45852 ms</span>
+                <span class="method-start">46143 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">55595 ms</span>
+                <span class="method-start">55878 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Target.TestTargetSearchPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">TestSetUp(Chrome, https://www.target.com/)</span>
+                <span class="method-start">56511 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetUp</span>
+                <span class="method-start">76567 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCategoryNotFound</span>
+                <span class="method-start">76568 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetUp</span>
+                <span class="method-start">79894 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDisplayCategory</span>
+                <span class="method-start">79895 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetUp</span>
+                <span class="method-start">90128 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchCategory</span>
+                <span class="method-start">90128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetUp</span>
+                <span class="method-start">98768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchItem</span>
+                <span class="method-start">98768 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetUp</span>
+                <span class="method-start">104958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSupportTypoItem</span>
+                <span class="method-start">104958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">115954 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Target.TestTargetDetailPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">TestSetUp(Chrome, https://www.target.com/)</span>
+                <span class="method-start">116621 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetUp</span>
+                <span class="method-start">162315 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDisplayDetailItem</span>
+                <span class="method-start">162316 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetUp</span>
+                <span class="method-start">186818 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNotDetailFoundItem</span>
+                <span class="method-start">186819 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">208419 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Target.TestTargetFavoritePage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">TestSetUp(Chrome, https://www.target.com/)</span>
+                <span class="method-start">209084 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetUp</span>
+                <span class="method-start">217347 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFavoriteSave</span>
+                <span class="method-start">217348 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetUp</span>
+                <span class="method-start">258452 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFavoriteSaveDisplay</span>
+                <span class="method-start">258452 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetUp</span>
+                <span class="method-start">264718 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFavoriteSaveRemove</span>
+                <span class="method-start">264718 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetUp</span>
+                <span class="method-start">289656 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFavoriteSaveRemoveDisplay</span>
+                <span class="method-start">289656 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">305750 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
