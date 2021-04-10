@@ -20,7 +20,7 @@ public class TargetFavoritePage extends BasePage{
     }
 
     public boolean showFavorite(String savedItem)throws InterruptedException {
-        Thread.sleep(8000);
+        Thread.sleep(10000);
         String favoriteSave = driver.findElement(FavoriteSave).getText();
         return favoriteSave.equalsIgnoreCase(savedItem);
     }

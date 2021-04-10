@@ -42,6 +42,7 @@ public class TargetLoginPage extends BasePage{
     }
 
     public boolean login(String emailAddress, String password) throws InterruptedException{
+        this.navigate();
         WebElement element = driver.findElement(Input_UserName);
         element.sendKeys(Keys.CONTROL + "a");
         element.sendKeys(Keys.DELETE);

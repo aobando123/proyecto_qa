@@ -42,7 +42,7 @@ public class TargetPasswordRecoveryPage extends BasePage{
         driver.navigate().back();
         this.navigate();
         sendKeys(Input_UserName, emailAddress);
-        Thread.sleep(500);
+        Thread.sleep(1500);
         driver.findElement(Button_Continue).submit();
         Thread.sleep(500);
         driver.findElement(Button_Continue).submit();

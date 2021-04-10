@@ -19,7 +19,7 @@ public class TargetDetailPage extends BasePage{
     public String FavoriteItem;
 
     public boolean getDetailElement() throws InterruptedException{
-        Thread.sleep(8000);
+        Thread.sleep(10000);
         List<WebElement> lis = driver.findElements(items_Sold);
         WebElement element = lis.get(0);
         String detailName = element.getText();

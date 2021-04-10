@@ -13,7 +13,7 @@
             <class name="Target.TestTargetLogin"/>
         </classes>
     </test>
-        <test name="DetailPage">
+    <test name="DetailPage">
         <classes>
             <class name="Target.TestTargetDetailPage"/>
         </classes>
