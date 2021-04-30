@@ -53,5 +53,10 @@
             <class name="Target.TestTargetSearchPage"/>
         </classes>
     </test>
+    <test name="Address">
+        <classes>
+            <class name="Target.TestTargetUserAddress"/>
+        </classes>
+    </test>
 
 </suite>

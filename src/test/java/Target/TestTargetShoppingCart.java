@@ -22,9 +22,11 @@ public class TestTargetShoppingCart extends BaseTest{
 
     @Test
     public void addItemToCart()throws InterruptedException {
-        TLP.navigate();
+
         TLP.login("cobandol@ucenfotec.ac.cr", "Welcome!!");
         Thread.sleep(1000);
+        driver.get("https://www.target.com/c/home-decor-deals/-/N-vxtra");
+        Thread.sleep(3000);
         TSC.addItemToCart();
         List<WebElement> cartItems = driver.findElements(cardItems);
         Assert.assertTrue(!cartItems.isEmpty());
@@ -35,6 +37,7 @@ public class TestTargetShoppingCart extends BaseTest{
         driver.get("https://www.target.com/");
         Thread.sleep(1000);
         TSC.deleteItemFromCart();
+        Thread.sleep(2000);
         List<WebElement> cartItems = driver.findElements(cardItems);
         Assert.assertTrue(cartItems.isEmpty());
     }

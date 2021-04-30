@@ -42,9 +42,9 @@ public class TestTargetMenuNav extends BaseTest{
 
         int targetStyle = 0;
         int womenArrivals = 1;
-        int kidsArrivals = 2;
-        int menArrivals = 3;
-        int beautyArrivals = 4;
+        int beautyArrivals = 2;
+        int kidsArrivals = 3;
+        int menArrivals = 4;
         int homeArrivals = 5;
         int womensEmpowerment = 6;
         int finds = 7;

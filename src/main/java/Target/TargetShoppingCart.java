@@ -9,7 +9,7 @@ public class TargetShoppingCart extends BasePage{
     }
 
     public void addItemToCart()throws InterruptedException {
-        By item = By.xpath("//*[@data-index='1']//div");
+        By item = By.xpath("//*[@data-test=\"product-card-default\"]");
         By addToCard = By.xpath("//*[@data-test='shipItButton']");
         By checkout = By.xpath("//*[@data-test='addToCartModalViewCartCheckout']");
         click(item);
